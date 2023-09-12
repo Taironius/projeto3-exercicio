@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Revalia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+    <title>SpaceVision</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand section-title m-0 fs-3">
+                <i class="bi bi-rocket-fill"></i>
+                SpaceVision
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#quem-somos" class="nav-link">
+                            <i class="bi bi-globe-americas"></i>
+                            Quem Somos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#missoes" class="nav-link">
+                            <i class="bi bi-moon-fill"></i>
+                            Missões
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#objetivos" class="nav-link">
+                            <i class="bi bi-fire"></i>
+                            Objetivos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#junte" class="nav-link">
+                            <i class="bi bi-arrow-up-circle-fill"></i>
+                            Junte-se à Esquadra
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="quem-somos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="images/slides/slide1.jpg" alt="Terra">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="images/slides/slide2.jpg" alt="Nave">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="images/slides/slide3.jpg" alt="Lua">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/slides/sobre.jpg" class="d-block w-100 rounded" alt="warship">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Quem Somos</h2>
+                            <p>
+                                Uma força independente não governamental, patrocinada por intusiastas do espaço que buscam sobretudo a expansão humana e colonização espacial.
+                            </p>
+                            <h3 class="section-title fs-4">Expansão</h3>
+                            <p>
+                                Se quisermos progresso quantativo e qualitativo, precisamos expandir pois:
+                            </p>
+                            <ul>
+                                <li>Lá fora há muitos recursos</li>
+                                <li>Aqui os recurso são finitos</li>
+                                <li>Precisamos de energia</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="missoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Missões</h2>
+                </div>
+                <div class="row mt-4">
+                        <div class="col-md-4">
+                            <img src="images/missoes/lua.jpg" alt="lua" class="d-block w-100 rounded mb-2">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-hammer"></i>
+                                Mineração Lunar
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae sit beatae doloribus cupiditate. Deserunt blanditiis esse voluptate.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/missoes/mercurio.jpg" alt="solar" class="d-block w-100 rounded mb-2">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-minecart-loaded"></i>                                
+                                Exploração Solar
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae sit beatae doloribus cupiditate. Deserunt blanditiis esse voluptate.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/missoes/colonizacao.jpg" alt="galaxia" class="d-block w-100 rounded mb-2">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-brightness-high-fill"></i>
+                                Colonização Galática
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae sit beatae doloribus cupiditate. Deserunt blanditiis esse voluptate.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section id="objetivos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Objetivos</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-objetivos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#necessidades" class="fw-bold text-start nav-link active">Necessidades</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#avancos" class="fw-bold text-start nav-link">Avanços</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#robotica" class="fw-bold text-start nav-link">Robótica</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#futuro" class="fw-bold text-start nav-link">Futuro</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="necessidades">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/objetivos/necessidades/energia.jpg" alt="energia">
+                                        <h5 class="mt-5">Aprimoramento Energético</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/objetivos/necessidades/educacao.jpg" alt="educação">
+                                        <h5 class="mt-5">Educação</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/objetivos/necessidades/energia.jpg" alt="energia">
+                                        <h5 class="mt-5">Aprimoramento Energético</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/objetivos/necessidades/educacao.jpg" alt="educação">
+                                        <h5 class="mt-5">Educação</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="avancos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/objetivos/avancos/raio.jpg" alt="raio">
+                                        <h5 class="mt-5">Controle Climático</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/objetivos/avancos/comida.jpg" alt="comida">
+                                        <h5 class="mt-5">Erradicação da Fome</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/objetivos/avancos/raio.jpg" alt="raio">
+                                        <h5 class="mt-5">Controle Climático</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/objetivos/avancos/comida.jpg" alt="comida">
+                                        <h5 class="mt-5">Erradicação da Fome</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="robotica">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/objetivos/robotica/machine.jpg" alt="machine">
+                                        <h5 class="mt-5">Robôs Humanóides</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/objetivos/robotica/learning.jpg" alt="learning">
+                                        <h5 class="mt-5">Machine Learning</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/objetivos/robotica/machine.jpg" alt="machine">
+                                        <h5 class="mt-5">Robôs Humanóides</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/objetivos/robotica/learning.jpg" alt="learning">
+                                        <h5 class="mt-5">Machine Learning</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="futuro">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/objetivos/futuro/speed.jpg" alt="velocidade">
+                                        <h5 class="mt-5">Superar a Velocidade da Luz</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/objetivos/futuro/teletransporte.jpg" alt="teletransporte">
+                                        <h5 class="mt-5">Finalizar o Teletransporte</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/objetivos/futuro/speed.jpg" alt="velocidade">
+                                        <h5 class="mt-5">Superar a Velocidade da Luz</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/objetivos/futuro/teletransporte.jpg" alt="teletransporte">
+                                        <h5 class="mt-5">Finalizar o Teletransporte</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="junte" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Junte-se à Esquadra</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua Mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-danger fw-bold mb-3">Lançar!</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 mb5">
+                        <div class="row">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>                                    
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>                                    
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>                                    
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Rocket nº1000 - Bairro Saturno - Vênus/SS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    font-family: 'Revalia', cursive;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.section-title{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.nav .nav-link.active {
+    background-color: #fff;
+    color: black;
+}
+
+.nav .nav-link,
+p, h5,
+#quem-somos li,
+.navbar-brand:hover,
+.form-label,
+.social-links a {
+    color: #fff;
+}
+
+#quem-somos,
+#objetivos {
+    background-color: #08131d
+}
+.carousel-item{
+    height: 960px;
+}
+
+#missoes,
+#junte {
+    background-color: #16283e;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item{
+        height: auto;
+    }
+
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+
